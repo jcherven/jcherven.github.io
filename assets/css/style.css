@@ -2,12 +2,52 @@ body {
     background-color: black;
 }
 
-#site-title {
-    color: white;
-    letter-spacing: normal;
+/* Set up responsive typography */
+html,
+body {
+	font-size: 14px !important;
+}
+.display-1 {
+	font-size: 3.906em;
+}
+.display-2 {
+	font-size: 3.125em;
+}
+.display-3 {
+	font-size: 2.5em;
+}
+.display-4 {
+	font-size: 2em;
 }
 
-.support-text {
-    color: white;
-    letter-spacing: normal;
+/* Medium devices (tablets, 48em and up) */
+@media (min-width: 48em) {
+	.display-1 {
+		font-size: 6em;
+	}
+	.display-2 {
+		font-size: 5.5em;
+	}
+	.display-3 {
+		font-size: 4.5em;
+	}
+	.display-4 {
+		font-size: 3.5em;
+	}
+}
+
+/* Large devices (desktops, 62em and up) */
+@media (min-width: 62em) {
+	html,
+	body {
+		font-size: 16px !important;
+	}
+}
+
+/* Extra large devices (large desktops, 75em and up) */
+@media (min-width: 75em) {
+	html,
+	body {
+		font-size: 18px !important;
+	}
 }
