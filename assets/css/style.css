@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+#site-title {
+    color: white;
+    letter-spacing: normal;
+}
+
+.support-text {
+    color: white;
+    letter-spacing: normal;
+}
